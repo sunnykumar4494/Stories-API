@@ -10,7 +10,7 @@ namespace StoriesAPI.Controllers
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class HackerNewsController : ControllerBase
-    {
+    {    
         private readonly IHackerNews _hackernews;
         //public HackerNews _hackernews;
         public HackerNewsController(IHackerNews hackernews)
